@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/4b611f40c0.js" crossorigin="anonymous"></script>    
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <div class="mode-toggle" id="toggle-mode">
+                <i class="fas fa-sun"></i> <!-- Sun icon for day mode -->
+                <i class="fas fa-moon"></i> <!-- Moon icon for night mode -->
+            </div>
+            
+             <h2>To-Do List <img src="images/todolist.png"></h2>
+             
+             <div class="row">
+                <input type="text" id="input-box" placeholder="Add a New Task">
+                <button onclick="addTask()">Add</button>
+             </div>
+             <ul id="list-container">
+               
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+                
+             </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="toggle.js"></script>
+</body>
+</html>
